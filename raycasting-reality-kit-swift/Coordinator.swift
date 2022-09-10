@@ -38,10 +38,13 @@ class Coordinator: NSObject {
             
             let modelEntity = ModelEntity(mesh: MeshResource.generateBox(size: 0.1))
             modelEntity.model?.materials = [SimpleMaterial(color: .blue, isMetallic: true)]
+            modelEntity.generateCollisionShapes(recursive: true)
             
             anchorEntity.addChild(modelEntity)
             
             view.scene.addAnchor(anchorEntity)
+            
+            view.installGestures(for: modelEntity)
             
         }
         
