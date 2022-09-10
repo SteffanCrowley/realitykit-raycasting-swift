@@ -41,8 +41,6 @@
 		9CA2957B28CD3FAD00642FA0 = {
 			isa = PBXGroup;
 			children = (
-				9CA2959928CD41B400642FA0 /* UIColor+Extensions.swift */,
-				9CA2959728CD418E00642FA0 /* Coordinator.swift */,
 				9CA2958628CD3FAD00642FA0 /* raycasting-reality-kit-swift */,
 				9CA2958528CD3FAD00642FA0 /* Products */,
 			);
@@ -60,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				9CA2958728CD3FAD00642FA0 /* AppDelegate.swift */,
+				9CA2959728CD418E00642FA0 /* Coordinator.swift */,
 				9CA2958928CD3FAD00642FA0 /* ContentView.swift */,
+				9CA2959928CD41B400642FA0 /* UIColor+Extensions.swift */,
 				9CA2958B28CD3FAD00642FA0 /* Experience.rcproject */,
 				9CA2958D28CD3FAE00642FA0 /* Assets.xcassets */,
 				9CA2958F28CD3FAE00642FA0 /* Preview Content */,
