@@ -12,6 +12,8 @@
 		9CA2958C28CD3FAD00642FA0 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2958B28CD3FAD00642FA0 /* Experience.rcproject */; };
 		9CA2958E28CD3FAE00642FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2958D28CD3FAE00642FA0 /* Assets.xcassets */; };
 		9CA2959128CD3FAE00642FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2959028CD3FAE00642FA0 /* Preview Assets.xcassets */; };
+		9CA2959828CD418E00642FA0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2959728CD418E00642FA0 /* Coordinator.swift */; };
+		9CA2959A28CD41B400642FA0 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2959928CD41B400642FA0 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9CA2958B28CD3FAD00642FA0 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		9CA2958D28CD3FAE00642FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA2959028CD3FAE00642FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CA2959728CD418E00642FA0 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9CA2959928CD41B400642FA0 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 		9CA2957B28CD3FAD00642FA0 = {
 			isa = PBXGroup;
 			children = (
+				9CA2959928CD41B400642FA0 /* UIColor+Extensions.swift */,
+				9CA2959728CD418E00642FA0 /* Coordinator.swift */,
 				9CA2958628CD3FAD00642FA0 /* raycasting-reality-kit-swift */,
 				9CA2958528CD3FAD00642FA0 /* Products */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA2959828CD418E00642FA0 /* Coordinator.swift in Sources */,
+				9CA2959A28CD41B400642FA0 /* UIColor+Extensions.swift in Sources */,
 				9CA2958A28CD3FAD00642FA0 /* ContentView.swift in Sources */,
 				9CA2958828CD3FAD00642FA0 /* AppDelegate.swift in Sources */,
 				9CA2958C28CD3FAD00642FA0 /* Experience.rcproject in Sources */,
