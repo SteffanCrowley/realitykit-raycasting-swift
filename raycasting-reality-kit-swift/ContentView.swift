@@ -16,17 +16,25 @@ struct ContentView : View {
 
 struct ARViewContainer: UIViewRepresentable {
     
+    
     func makeUIView(context: Context) -> ARView {
         
+        //Create AR Scene
         let arView = ARView(frame: .zero)
+        
+        
+        //add gesture to view, targets our coordinator and selects the proper function from the coordinator
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.handleTap)))
         
+        //Make sure that the coordinator knows about the view
         context.coordinator.view = arView
-                
+             
+        //Return AR Scene
         return arView
         
     }
     
+    //create function that returns our Coordinator
     func makeCoordinator() -> Coordinator {
         Coordinator()
     }
